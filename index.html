@@ -86,11 +86,12 @@
                     </div>
                 </div>
                 <div class="page-header">
-                    <h2>Fonctionnement</h2>
+                    <h2>Mécanique</h2>
                     <textarea v-on:keyup.enter="whenDescriptionChanged" v-on:keyup.space="whenDescriptionChanged"
                     v-on:keyup.change="whenDescriptionChanged"
                     class="form-control" rows="5" v-model="cardDescription"></textarea>
-                    <p><b>Mots clés:</b> apparition, blessé, coup de grâce, mort, mur,
+                    <p>Les mots entre * seront en <b>gras</b>.    *CHEF* => <b>CHEF</b><br>
+                    <b>Mots clés:</b> apparition, blessé, coup de grâce, mort, mur,
                     portée, inciblable, fin du tour, début du tour, chef, at, ar, pa, pm, pv, at,
                     charge, assome, portée, initiative
                     </p>
@@ -160,8 +161,7 @@
     </div>
     <footer>
         <b>KrosmaCreator</b><span>-Mhylda-</span>
-        <br>
-        Images Krosmaga @ Ankama Games
+        <br><span style="font-size: 14px;">Images Krosmaga @ Ankama Games</span>
     </footer>
 </body>
 

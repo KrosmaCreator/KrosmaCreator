@@ -1,6 +1,17 @@
+@font-face {
+    font-family: 'BERNHC'; /*a name to be used later*/
+    src: url('BERNHC.ttf'); /*URL to font*/
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    /*font-family: "BERNHC";*/
     background-color: #221E1D;
+}
+
+.div-test {
+    font-family: "BERNHC";
+    font-size: 72px;
 }
 
 #app {
@@ -44,14 +55,16 @@ body {
 
 .setting-div {
     width: 60%;
+    min-width: 520px;
+    min-height: 797px;
 }
 
 .card-div {
     margin-left: 50px;
-    max-width: 322px;
-    max-height: 405px;
-    min-width: 322px;
-    min-height: 405px;
+    max-width: 476px;
+    max-height: 601px;
+    min-width: 476px;
+    min-height: 601px;
 }
 
 #loader {
