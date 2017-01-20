@@ -15,10 +15,10 @@ body {
 }
 
 #app {
-    display: flex;
 }
 
 .section {
+    display: flex;
     margin: 15px;
 }
 
@@ -107,4 +107,31 @@ footer {
 footer span {
     color: #D8D8D8;
     font-size: 6px;
+}
+.showcase-div {
+    width: 86.4%;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.showcase-text {
+    text-align: center;
+    font-size: 32px;
+}
+
+.showcase-img {
+    width: 223px;
+    height: 283px;
+}
+
+.showcase-img-div {
+}
+
+.panel-default>.panel-heading {
+    background-image: none;
+}
+
+.panel-button {
+    cursor: pointer;   
 }
